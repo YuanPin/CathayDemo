@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="VegetationTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="640"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="639.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Ej-UV-43s">
+                        <rect key="frame" x="36" y="64" width="248" height="251"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="7Ej-UV-43s" secondAttribute="height" multiplier="248:251" id="kH0-n2-ZFj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="14"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="九芎" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Swc-jY-Qni">
+                        <rect key="frame" x="36" y="20" width="248" height="24"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8l-pr-btX">
+                        <rect key="frame" x="36" y="411" width="248" height="208.5"/>
+                        <string key="text">紅褐色的樹皮剝落後呈灰白色，樹幹光滑堅硬。葉有極短的柄，長橢圓形或卵形，全綠，葉片兩端尖，秋冬轉紅。夏季6～8月開花，花冠白色，花數甚多而密生於枝端，花為圓錐花序頂生，花瓣有長柄，邊緣皺曲像衣裙的花邊花絲長短不一。果實為蒴果，橢圓形約6-8公厘，種子有翅。</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="臺灣動物區；蟲蟲探索谷；亞洲熱帶雨林區；鳥園；兩棲爬蟲動物館" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQC-j2-1Pc">
+                        <rect key="frame" x="36" y="335" width="248" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7Ej-UV-43s" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="45y-U4-Bfi"/>
+                    <constraint firstItem="k8l-pr-btX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="4Kv-az-uhm"/>
+                    <constraint firstItem="gQC-j2-1Pc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="SpQ-PG-WdH"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="k8l-pr-btX" secondAttribute="trailing" constant="20" id="Zbg-2i-JDk"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Swc-jY-Qni" secondAttribute="trailing" constant="20" id="bn4-b7-Ns8"/>
+                    <constraint firstAttribute="bottom" secondItem="k8l-pr-btX" secondAttribute="bottom" constant="20" id="cDY-dO-iRF"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="7Ej-UV-43s" secondAttribute="trailing" constant="20" id="cf4-Uh-H09"/>
+                    <constraint firstItem="7Ej-UV-43s" firstAttribute="top" secondItem="Swc-jY-Qni" secondAttribute="bottom" constant="20" id="ezF-tt-Ire"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="gQC-j2-1Pc" secondAttribute="trailing" constant="20" id="gA8-x1-JYK"/>
+                    <constraint firstItem="gQC-j2-1Pc" firstAttribute="top" secondItem="7Ej-UV-43s" secondAttribute="bottom" constant="20" id="itr-zh-Y1D"/>
+                    <constraint firstItem="Swc-jY-Qni" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="jRz-h4-Kvz"/>
+                    <constraint firstItem="k8l-pr-btX" firstAttribute="top" secondItem="gQC-j2-1Pc" secondAttribute="bottom" constant="40" id="qwh-i8-V1Y"/>
+                    <constraint firstItem="Swc-jY-Qni" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="u5s-jn-Afo"/>
+                    <constraint firstItem="7Ej-UV-43s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="ySx-9V-6nd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="PicImageView" destination="7Ej-UV-43s" id="uK4-pP-9lC"/>
+                <outlet property="featureLabel" destination="k8l-pr-btX" id="OTt-3Q-ZNc"/>
+                <outlet property="imageAspectRatioConstraint" destination="kH0-n2-ZFj" id="IGD-9E-JyW"/>
+                <outlet property="locationLabel" destination="gQC-j2-1Pc" id="frq-qE-gkB"/>
+                <outlet property="nameLabel" destination="Swc-jY-Qni" id="f8k-Lo-dEL"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="153.82308845577214"/>
+        </tableViewCell>
+    </objects>
+</document>
